@@ -130,8 +130,28 @@
           <input id="card-number" />
         </div>
 
+        <div class="input-wrapper">
+          <label for="card-holder">Nome do titular</label>
+          <input id="card-holder" />
         </div>
-      </section>
+
+        <div class="flex">
+          <div class="input-wrapper">
+            <label for="expiration-date">Expiração</label>
+            <input id="expiration-date" />
+          </div>
+
+          <div class="input-wrapper">
+            <label for="security-code">CVC</label>
+            <input id="security-code" />
+          </div>
+        </div>
+
+        <button id="add-card">ADICIONAR CARTÃO</button>
+
+      </form>
     </div>
+
+    <script type="module" src="/src/main.js"></script>
   </body>
 </html>
